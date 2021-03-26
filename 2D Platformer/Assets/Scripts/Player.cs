@@ -17,6 +17,8 @@ public class Player : MonoBehaviour
     private float _checkGroundRadius = 5;
     [SerializeField]
     private LayerMask _groundLayer;
+    [SerializeField]
+    private AudioSource _jump;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -40,6 +42,7 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && _isGrounded == true)
         {
+            _jump.Play();
             rb.velocity = new Vector2(rb.velocity.x, _jumpForce);
         }
     }
