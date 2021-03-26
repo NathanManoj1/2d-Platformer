@@ -21,11 +21,14 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
     }
+    private void Update()
+    {
+        Jump();
+        CheckIfGrounded();
+    }
     private void FixedUpdate()
     {
         Move();
-        Jump();
-        CheckIfGrounded();
     }
     private void Move()
     {
