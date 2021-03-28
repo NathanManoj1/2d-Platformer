@@ -58,7 +58,11 @@ public class Crawler : MonoBehaviour
         if (collision.CompareTag("Player") && _currentstate != EnemyState.Pet)
         {
            _currentstate = EnemyState.Attack;
-            collision.GetComponent<Health>().Damage(1);
+            collision.GetComponent<Health>().Damage(.01f);
+        }
+        else if (collision.CompareTag("Enemy"))
+        {
+            collision.GetComponent<Health>().Damage(10);
         }
     }
     
