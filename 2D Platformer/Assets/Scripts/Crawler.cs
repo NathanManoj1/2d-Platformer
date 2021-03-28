@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class Crawler : MonoBehaviour
 {
-    private enum EnemyState
+    public enum EnemyState
     {
         Crawl,
-        Attack
+        Attack,
+        Pet
     }
 
     [SerializeField]
@@ -15,8 +16,9 @@ public class Crawler : MonoBehaviour
     [SerializeField]
     private float _speed = 3.0f;
     private bool _switching = false;
-    private EnemyState _currentstate;
-
+    public EnemyState _currentstate;
+    [SerializeField]
+    private Transform _player;
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -41,20 +43,30 @@ public class Crawler : MonoBehaviour
             }
         }
     }
+    private void Update()
+    {
+        if(_currentstate == EnemyState.Pet)
+        {
+            if(Vector3.Distance(transform.position, _player.position) > 3)
+            {
+                transform.position = Vector3.MoveTowards(transform.position, _player.position, _speed * Time.deltaTime);
+            }
+        }
+    }
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") && _currentstate != EnemyState.Pet)
         {
-            _currentstate = EnemyState.Attack;
+           _currentstate = EnemyState.Attack;
             collision.GetComponent<Health>().Damage(1);
         }
     }
     
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") && _currentstate != EnemyState.Pet)
         {
-            _currentstate = EnemyState.Crawl;
+           _currentstate = EnemyState.Crawl;
         }
     }
 
