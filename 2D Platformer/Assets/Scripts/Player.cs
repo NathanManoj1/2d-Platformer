@@ -19,9 +19,15 @@ public class Player : MonoBehaviour
     private LayerMask _groundLayer;
     [SerializeField]
     private AudioSource _jump;
+    private Animator _anim;
     private void Start()
     {
+        _anim = GetComponent<Animator>();
+        if (_anim == null)
+            Debug.LogError("Animator is NULL");
         rb = GetComponent<Rigidbody2D>();
+        if (rb == null)
+            Debug.LogError("Rigidbody2D is NULL");
     }
     private void Update()
     {
@@ -42,6 +48,7 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && _isGrounded == true)
         {
+            _anim.SetTrigger("Jump");
             _jump.Play();
             rb.velocity = new Vector2(rb.velocity.x, _jumpForce);
         }
