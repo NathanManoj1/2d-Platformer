@@ -38,7 +38,7 @@ public class Health : MonoBehaviour
                 {
                     var component = GetComponent<Crawler>();
                     component._currentstate = Crawler.EnemyState.Pet;
-                    backpack.pets.Add(gameObject);
+                    backpack.pets.Add(gameObject.GetComponent<Crawler>());
                     backpack._currentBackpackItems++;
                     _CurrentHealth = _MaxHealth;
                     isPet = true;

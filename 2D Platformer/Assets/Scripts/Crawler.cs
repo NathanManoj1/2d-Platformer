@@ -8,7 +8,8 @@ public class Crawler : MonoBehaviour
     {
         Crawl,
         Attack,
-        Pet
+        Pet,
+        PetAttack
     }
 
     [SerializeField]
@@ -19,6 +20,8 @@ public class Crawler : MonoBehaviour
     public EnemyState _currentstate;
     [SerializeField]
     private Transform _player;
+    private bool _move;
+    private Vector3 point;
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -42,20 +45,22 @@ public class Crawler : MonoBehaviour
                 _switching = false;
             }
         }
-    }
-    private void Update()
-    {
-        if(_currentstate == EnemyState.Pet)
+        if (_currentstate == EnemyState.Pet)
         {
-            if(Vector3.Distance(transform.position, _player.position) > 3)
+            if (Vector3.Distance(transform.position, _player.position) > 3)
             {
-                transform.position = Vector3.MoveTowards(transform.position, _player.position, _speed * Time.deltaTime);
+                 transform.position = Vector3.MoveTowards(transform.position, _player.position, _speed * Time.deltaTime);
             }
         }
+        if (_move == true)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, new Vector3(point.x, point.y, point.z), Time.deltaTime * _speed);
+        }
     }
+  
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && _currentstate != EnemyState.Pet)
+        if (collision.CompareTag("Player") && _currentstate != EnemyState.Pet && _currentstate != EnemyState.PetAttack)
         {
            _currentstate = EnemyState.Attack;
             collision.GetComponent<Health>().Damage(.01f);
@@ -72,6 +77,13 @@ public class Crawler : MonoBehaviour
         {
            _currentstate = EnemyState.Crawl;
         }
+    }
+    public void MoveTowards(Vector3 _point)
+    {
+        point = _point;
+        _move = true;
+        _currentstate = EnemyState.PetAttack;
+
     }
 
 }
