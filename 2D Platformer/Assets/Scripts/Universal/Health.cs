@@ -17,7 +17,7 @@ public class Health : MonoBehaviour
     private void Start()
     {
         _CurrentHealth = _MaxHealth;
-        _backpack = GameObject.Find("Player").GetComponent<Backpack>();
+        _backpack = GameObject.Find("Backpack").GetComponent<Backpack>();
         if (_backpack == null)
             Debug.LogError("Backpack is NULL");
     }
@@ -29,7 +29,7 @@ public class Health : MonoBehaviour
         {
             if(this.tag != "Player")
             {
-                _number = Random.Range(1, _rare);
+                _number = 2;//Random.Range(1, _rare);
                 if (_number == 2 && isPet == false)
                 {
                     var component = GetComponent<Pets>();

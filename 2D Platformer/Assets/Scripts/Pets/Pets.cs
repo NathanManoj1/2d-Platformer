@@ -17,6 +17,7 @@ public class Pets : MonoBehaviour
     [SerializeField]
     private float _speed = 10;
     private Transform _player;
+    [SerializeField]
     private PetState _currentState;
     Health health;
     private void Start()
@@ -26,11 +27,13 @@ public class Pets : MonoBehaviour
         if (health == null)
             Debug.LogError("Health is NULL");
         _player = GameObject.Find("Player").transform;
+        if (_player == null)
+            Debug.LogError("Player is NULL");
 ;    }
     private void Update()
     {
-        if (health.isPet == true && _currentState != PetState.GoToEnemy)
-            _currentState = PetState.FollowPlayer;
+       if (health.isPet == true && _currentState != PetState.GoToEnemy)
+           _currentState = PetState.FollowPlayer;
     }
     private void FixedUpdate()
     {
@@ -48,15 +51,9 @@ public class Pets : MonoBehaviour
     }
     public void MoveTowards(Vector3 _point)
     {
-      
         point = _point;
-        _currentState = PetState.GoToEnemy;
+       _currentState = PetState.GoToEnemy;
     }
-    private void OnTriggerStay2D(Collider2D other)
-    {
-        
-           // _currentState = PetState.AttackEnemy;
-
-    }
+   
 
 }

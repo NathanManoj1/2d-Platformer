@@ -11,23 +11,27 @@ public class Backpack : MonoBehaviour
     public List<Pets> pets = new List<Pets>();
     void Update()
     {
-        MoveCurrentObjectToMouse();
+            MoveCurrentObjectToMouse();
+        
     }
     private void MoveCurrentObjectToMouse()
     {
-        Vector3 worldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        RaycastHit2D hitData = Physics2D.Raycast(new Vector2(worldPosition.x, worldPosition.y), Vector2.zero, 0);
+
+        if (Input.GetMouseButtonDown(0))
         {
-            if (hitData && Input.GetMouseButtonDown(0))
+            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 mousePos2D = new Vector2(mousePos.x, mousePos.y);
+
+            RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero);
+            if (hit.collider != null)
             {
-                foreach (var crawler in pets)
+                foreach(var crawler in pets)
                 {
-                    crawler.MoveTowards(hitData.point);
+                    crawler.GetComponent<Pets>().MoveTowards(hit.transform.position);
                 }
             }
-
-
         }
+         
     }
     public void ConvertToPet(Pets pet)
     {

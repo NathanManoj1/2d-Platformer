@@ -27,6 +27,7 @@ public class Sword : MonoBehaviour
             if (health.isPet == false)
                 health.Damage(10);
             _sword.SetTrigger("Swing");
+            Debug.Log("called");
         }
     }
 }
