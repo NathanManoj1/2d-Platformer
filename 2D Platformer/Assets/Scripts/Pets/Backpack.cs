@@ -8,10 +8,7 @@ public class Backpack : MonoBehaviour
     public int _backpackSpace = 3;
     [SerializeField]
     public int _currentBackpackItems;
-    public List<Crawler> pets = new List<Crawler>();
-    // Start is called before the first frame update
-
-    // Update is called once per frame
+    public List<Pets> pets = new List<Pets>();
     void Update()
     {
         MoveCurrentObjectToMouse();
@@ -32,4 +29,14 @@ public class Backpack : MonoBehaviour
 
         }
     }
+    public void ConvertToPet(Pets pet)
+    {
+        if(_currentBackpackItems != _backpackSpace)
+        {
+            pets.Add(pet);
+            _currentBackpackItems++;
+            
+        }
+    }
+  
 }

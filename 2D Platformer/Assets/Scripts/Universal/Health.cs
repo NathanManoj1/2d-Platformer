@@ -13,19 +13,15 @@ public class Health : MonoBehaviour
     [SerializeField]
     private int _rare = 3;
     public bool isPet;
-    private Backpack backpack;
+    Backpack _backpack;
     private void Start()
     {
-        
-        backpack = GameObject.Find("Player").GetComponent<Backpack>();
-        if (backpack == null)
-            Debug.LogError("BackPack is NULL");
         _CurrentHealth = _MaxHealth;
+        _backpack = GameObject.Find("Player").GetComponent<Backpack>();
+        if (_backpack == null)
+            Debug.LogError("Backpack is NULL");
     }
-    private void Update()
-    {
-       
-    }
+ 
     public void Damage(float _DamageAmount)
     {
         _CurrentHealth -= _DamageAmount;
@@ -34,12 +30,10 @@ public class Health : MonoBehaviour
             if(this.tag != "Player")
             {
                 _number = Random.Range(1, _rare);
-                if (_number == 2 && backpack._currentBackpackItems != backpack._backpackSpace && isPet == false)
+                if (_number == 2 && isPet == false)
                 {
-                    var component = GetComponent<Crawler>();
-                    component._currentstate = Crawler.EnemyState.Pet;
-                    backpack.pets.Add(gameObject.GetComponent<Crawler>());
-                    backpack._currentBackpackItems++;
+                    var component = GetComponent<Pets>();
+                    _backpack.ConvertToPet(component);
                     _CurrentHealth = _MaxHealth;
                     isPet = true;
                 }

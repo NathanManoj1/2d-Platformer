@@ -2655,6 +2655,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1295684027, guid: 4c68872ad047d9e43b8300d3e45cbc96, type: 3}
+      propertyPath: _player
+      value: 
+      objectReference: {fileID: 840786903}
     - target: {fileID: 2906256794074758565, guid: 4c68872ad047d9e43b8300d3e45cbc96, type: 3}
       propertyPath: m_Name
       value: Crawler (1)
@@ -7528,6 +7532,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1295684027, guid: 4c68872ad047d9e43b8300d3e45cbc96, type: 3}
+      propertyPath: _player
+      value: 
+      objectReference: {fileID: 840786903}
     - target: {fileID: 2906256794074758565, guid: 4c68872ad047d9e43b8300d3e45cbc96, type: 3}
       propertyPath: m_Name
       value: Crawler
