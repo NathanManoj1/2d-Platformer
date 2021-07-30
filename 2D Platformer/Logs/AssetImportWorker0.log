@@ -15,11 +15,11 @@ C:/Users/natha/OneDrive/Desktop/Unity Projects/2d-Platformer/2D Platformer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63859
+58463
 Successfully changed project path to: C:/Users/natha/OneDrive/Desktop/Unity Projects/2d-Platformer/2D Platformer
 C:/Users/natha/OneDrive/Desktop/Unity Projects/2d-Platformer/2D Platformer
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 118.34 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 151.94 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -36,1729 +36,822 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011991 seconds.
+Registered in 0.009493 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 138.83 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 126.25 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.535 seconds
+- Completed reload, in  3.335 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005785 seconds.
+Registered in 0.005916 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 121.50 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 142.22 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.712 seconds
+- Completed reload, in  2.655 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 1.39 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.7 MB.
-System memory in use after: 136.8 MB.
+Unloading 3234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.6 MB.
+System memory in use after: 146.6 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3559.
-Total: 8.723500 ms (FindLiveObjects: 1.693700 ms CreateObjectMapping: 0.818600 ms MarkObjects: 5.844400 ms  DeleteObjects: 0.361200 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Art
-  artifactKey: Guid(d3a48a27728d7a24f8db34f9ff1026c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art using Guid(d3a48a27728d7a24f8db34f9ff1026c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e357223c04fbf7e58844e870f99e0dc3') in 0.030594 seconds
-  Import took 0.042148 seconds .
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3678.
+Total: 10.000400 ms (FindLiveObjects: 3.005600 ms CreateObjectMapping: 1.053700 ms MarkObjects: 5.591800 ms  DeleteObjects: 0.344400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 80.786386 seconds.
-  path: Assets/Pixel Adventure 1
-  artifactKey: Guid(8962915f45bf3054eb11d054f8621c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 1 using Guid(8962915f45bf3054eb11d054f8621c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa0c53b00d1bd2b2a6d70788098a624') in 0.014717 seconds
-  Import took 0.031465 seconds .
+  path: Assets/Art/Pixel Adventure 1/Free/Menu/Levels/34.png
+  artifactKey: Guid(ab6575ffbf2874241bd4bcd7a55eb3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Levels/34.png using Guid(ab6575ffbf2874241bd4bcd7a55eb3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bbdc9aebc884d36a94c7bd2ad1c8d27') in 0.247959 seconds
+  Import took 0.260554 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.965324 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Menu/Buttons
-  artifactKey: Guid(e1a5341de446f794c90b4a26247459f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Buttons using Guid(e1a5341de446f794c90b4a26247459f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92013c3ec3334a413df2db25f71cd68a') in 0.015506 seconds
-  Import took 0.027987 seconds .
+  Time since last request: 0.000550 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Menu/Levels/36.png
+  artifactKey: Guid(31939f5f9a64add42b0f9ae9cd9337ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Levels/36.png using Guid(31939f5f9a64add42b0f9ae9cd9337ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db01da9065f69829f2fb51bd3b479a5c') in 0.039826 seconds
+  Import took 0.054823 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.017573 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Menu/Buttons/Achievements.png
-  artifactKey: Guid(61b4190e86682c34eb8f42d3ece938e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Buttons/Achievements.png using Guid(61b4190e86682c34eb8f42d3ece938e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9122d07bd29cc2815147fd48195c755') in 0.232194 seconds
-  Import took 0.244162 seconds .
+  Time since last request: 0.000577 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Platforms/Chain.png
+  artifactKey: Guid(299bdc3ec949d824da75a8f1c139f648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Platforms/Chain.png using Guid(299bdc3ec949d824da75a8f1c139f648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73597278aa8fd0ebdaa093968deba1bc') in 0.034859 seconds
+  Import took 0.054873 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.933102 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Menu/Buttons/Back.png
-  artifactKey: Guid(8f650a66db3f7ef46b800873bede5eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Buttons/Back.png using Guid(8f650a66db3f7ef46b800873bede5eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38cc525be50ed3c80e5755ea6be06085') in 0.043344 seconds
-  Import took 0.055465 seconds .
+  Time since last request: 0.000512 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Menu/Levels/40.png
+  artifactKey: Guid(d08ec05e15f524e4b8575d53c92192f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Levels/40.png using Guid(d08ec05e15f524e4b8575d53c92192f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15ebf5d7d31e80d6600492895a58791') in 0.030839 seconds
+  Import took 0.044489 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.606089 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Menu/Buttons/Close.png
-  artifactKey: Guid(6a5e8c6efe527074588f1305410dc834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Buttons/Close.png using Guid(6a5e8c6efe527074588f1305410dc834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff13c2ec46bb6534dbf865c384c6c84a') in 0.042140 seconds
-  Import took 0.059374 seconds .
+  Time since last request: 0.000617 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Menu/Levels/47.png
+  artifactKey: Guid(5db23e2503021a44188bf1174651e405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Levels/47.png using Guid(5db23e2503021a44188bf1174651e405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277f6f1af3ae90c27dc13eed18a50db7') in 0.031760 seconds
+  Import took 0.043411 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.983738 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Menu/Text
-  artifactKey: Guid(5145edd9f3051a84b8c32462821f4723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Text using Guid(5145edd9f3051a84b8c32462821f4723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43703be0a70f56e06d775304b705e56d') in 0.026309 seconds
-  Import took 0.041466 seconds .
+  Time since last request: 0.000713 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Menu/Levels/39.png
+  artifactKey: Guid(96e5dac4e3d29064388bf8c1d82d48ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Levels/39.png using Guid(96e5dac4e3d29064388bf8c1d82d48ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f176d4a88517daf46829c0b0a6ba7c') in 0.031019 seconds
+  Import took 0.051037 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.145085 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Other/Dust Particle.png
-  artifactKey: Guid(69299ee5fd9e60f4aaf8dddae78220b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Other/Dust Particle.png using Guid(69299ee5fd9e60f4aaf8dddae78220b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6263114c41fef51c8279a480cb22f4e0') in 0.033642 seconds
-  Import took 0.056960 seconds .
+  Time since last request: 0.000495 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Rock Head/Bottom Hit (42x42).png
+  artifactKey: Guid(feba88eb25f29cf459d9782a16dd855c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Rock Head/Bottom Hit (42x42).png using Guid(feba88eb25f29cf459d9782a16dd855c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb65d56ffa7ac376cf1459fbf85ccae1') in 0.031586 seconds
+  Import took 0.043093 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.243321 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Other/Shadow.png
-  artifactKey: Guid(3c7a3a0e24c5bff4ca983ea4828d0dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Other/Shadow.png using Guid(3c7a3a0e24c5bff4ca983ea4828d0dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41511bb467123be4109b4a34e9f7bd0f') in 0.041760 seconds
-  Import took 0.057180 seconds .
+  Time since last request: 0.000542 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Items/Fruits/Bananas.png
+  artifactKey: Guid(b4278345c3d5ecf4b9349bb070d8e6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Items/Fruits/Bananas.png using Guid(b4278345c3d5ecf4b9349bb070d8e6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793dbe67b6203b92336797063f0f82e0') in 0.032267 seconds
+  Import took 0.043264 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.518578 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Other/Transition.png
-  artifactKey: Guid(3417bf742e477ee459b8f736dc61f706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Other/Transition.png using Guid(3417bf742e477ee459b8f736dc61f706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5651ef1a85b3250f846fffdc4e0aea91') in 0.048838 seconds
-  Import took 0.062125 seconds .
+  Time since last request: 0.000795 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Spiked Ball/Chain.png
+  artifactKey: Guid(d997c800c4c4287479b415cf13f4f64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Spiked Ball/Chain.png using Guid(d997c800c4c4287479b415cf13f4f64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091e8580ec6a3887f365904a3aa94d08') in 0.028137 seconds
+  Import took 0.038694 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.289931 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Terrain
-  artifactKey: Guid(5a700c884165f7e48bcd92e72a7a3f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Terrain using Guid(5a700c884165f7e48bcd92e72a7a3f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f3b7719459b48f29ca4331cab00545') in 0.027558 seconds
-  Import took 0.044636 seconds .
+  Time since last request: 0.000553 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Menu/Levels/41.png
+  artifactKey: Guid(d87b756e8d8112945a6d418baf481152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Levels/41.png using Guid(d87b756e8d8112945a6d418baf481152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f8bd4d831f17c55962278fb75aae51') in 0.029259 seconds
+  Import took 0.039661 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.615091 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/20 Enemies.png
-  artifactKey: Guid(31262e7add99c8644990efa87dd9d1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/20 Enemies.png using Guid(31262e7add99c8644990efa87dd9d1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dfb4b8a881cb80f3325bf2cd6e6aecf') in 0.058364 seconds
-  Import took 0.077072 seconds .
+  Time since last request: 0.000773 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Menu/Levels/35.png
+  artifactKey: Guid(706cb488cd596da48a9a066405dbe917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Levels/35.png using Guid(706cb488cd596da48a9a066405dbe917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b094f9412e93a726d119991e9a28f3') in 0.030437 seconds
+  Import took 0.041809 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.180131 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Double Jump (32x32).png
-  artifactKey: Guid(e47ed98024dff1749becf762304164ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Double Jump (32x32).png using Guid(e47ed98024dff1749becf762304164ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0194d78681f4bd45fc5d26328db672') in 0.045495 seconds
-  Import took 0.059860 seconds .
+  Time since last request: 0.000569 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Menu/Levels/42.png
+  artifactKey: Guid(1be8b7e254ec71a4e9ffba8d8a068894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Levels/42.png using Guid(1be8b7e254ec71a4e9ffba8d8a068894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1405d65125d51043106211c121b34ad2') in 0.032704 seconds
+  Import took 0.046673 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.657032 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Fall (32x32).png
-  artifactKey: Guid(8ef22dd1ec4cd0246928054b5d88f375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Fall (32x32).png using Guid(8ef22dd1ec4cd0246928054b5d88f375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f405134d5652bda96092d570f2e49803') in 0.043499 seconds
-  Import took 0.057167 seconds .
+  Time since last request: 0.000566 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Menu/Levels/32.png
+  artifactKey: Guid(5e25fc79f19c7cb4085634da853d548d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Levels/32.png using Guid(5e25fc79f19c7cb4085634da853d548d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120a277767599f9341b7e097982ab4f6') in 0.031769 seconds
+  Import took 0.044008 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.175773 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Hit (32x32).png
-  artifactKey: Guid(b2a1c6b44ea261a478b619d7660b96d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Hit (32x32).png using Guid(b2a1c6b44ea261a478b619d7660b96d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bfc100acb86aad50a8f554e3aec1a7c') in 0.046054 seconds
-  Import took 0.059108 seconds .
+  Time since last request: 0.000584 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Items/Checkpoints/Checkpoint/Checkpoint (Flag Idle)(64x64).png
+  artifactKey: Guid(2d5baec5eeee12c41bd44b72841fa6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Items/Checkpoints/Checkpoint/Checkpoint (Flag Idle)(64x64).png using Guid(2d5baec5eeee12c41bd44b72841fa6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68a173974f9afa60b8941698b51986f') in 0.038301 seconds
+  Import took 0.050091 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.692713 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Idle (32x32).png
-  artifactKey: Guid(d38f0fdd105eb074c8f16648397a1721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Idle (32x32).png using Guid(d38f0fdd105eb074c8f16648397a1721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00562d0f91b5666eaa8cf3efc9fcbeb') in 0.040427 seconds
-  Import took 0.055647 seconds .
+  Time since last request: 0.001355 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Platforms/Brown Off.png
+  artifactKey: Guid(3319d53d5223b7747949b55829438558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Platforms/Brown Off.png using Guid(3319d53d5223b7747949b55829438558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40d2aa8905a56223ff7d0b5c506031c') in 0.030406 seconds
+  Import took 0.042789 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.537061 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Jump (32x32).png
-  artifactKey: Guid(6e19547aa8d43e14b8fcb7d50376608d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Jump (32x32).png using Guid(6e19547aa8d43e14b8fcb7d50376608d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628587bc5a994fa9b0b28d8edb865858') in 0.039095 seconds
-  Import took 0.052411 seconds .
+  Time since last request: 0.000525 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Items/Boxes/Box3/Break.png
+  artifactKey: Guid(9d13156eec23aa340bc22fa151e351e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Items/Boxes/Box3/Break.png using Guid(9d13156eec23aa340bc22fa151e351e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3451503f272b538ab1e65d77daeb0a') in 0.038929 seconds
+  Import took 0.054384 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.732113 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Run (32x32).png
-  artifactKey: Guid(f86243abdc7b0854daee02c9874f747a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Run (32x32).png using Guid(f86243abdc7b0854daee02c9874f747a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e18c329fbaa8b39287eb2b7f29898cc') in 0.051761 seconds
-  Import took 0.066669 seconds .
+  Time since last request: 0.000755 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Rock Head/Blink (42x42).png
+  artifactKey: Guid(8757a7fcf83e0d248b98c7ccb90abde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Rock Head/Blink (42x42).png using Guid(8757a7fcf83e0d248b98c7ccb90abde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64a0dd034a0d3b171d79200bb99d9b6') in 0.032146 seconds
+  Import took 0.043061 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.817361 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Wall Jump (32x32).png
-  artifactKey: Guid(246b57d957136e3468503b43ae3dee3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Wall Jump (32x32).png using Guid(246b57d957136e3468503b43ae3dee3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dbee10c63dabea9ca0f2fe0534760a7') in 0.048548 seconds
-  Import took 0.063599 seconds .
+  Time since last request: 0.000507 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Menu/Levels/37.png
+  artifactKey: Guid(d610a7bbb46edc848a0974ba8d09f86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Levels/37.png using Guid(d610a7bbb46edc848a0974ba8d09f86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd330fa707b0c4e0a7d28a8e15e66fd0b') in 0.035114 seconds
+  Import took 0.048507 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.399749 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Ninja Frog
-  artifactKey: Guid(eeb3d7cc1c5419442aa857d4438833af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Ninja Frog using Guid(eeb3d7cc1c5419442aa857d4438833af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe9268b0f74d59850d8c9515f4b5a4a') in 0.014810 seconds
-  Import took 0.030728 seconds .
+  Time since last request: 0.000481 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Items/Boxes/Box1/Break.png
+  artifactKey: Guid(f4f2df945508a784988f1a92eb8b48c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Items/Boxes/Box1/Break.png using Guid(f4f2df945508a784988f1a92eb8b48c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163d2971ec99d4a9322181204d14d17a') in 0.028463 seconds
+  Import took 0.040279 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.110431 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Virtual Guy/Double Jump (32x32).png
-  artifactKey: Guid(4bce8bb0bc798c141a6afc8b14eb1e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Virtual Guy/Double Jump (32x32).png using Guid(4bce8bb0bc798c141a6afc8b14eb1e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480d67622fb2f6ffb283844d70902e00') in 0.034821 seconds
-  Import took 0.050393 seconds .
+  Time since last request: 0.000519 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Items/Checkpoints/Checkpoint/Checkpoint (Flag Out) (64x64).png
+  artifactKey: Guid(491b86d4f3510314b827d310f357b021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Items/Checkpoints/Checkpoint/Checkpoint (Flag Out) (64x64).png using Guid(491b86d4f3510314b827d310f357b021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d0b87ec95017d8ffdde4bfd74217e9') in 0.036142 seconds
+  Import took 0.046948 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.952373 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Virtual Guy/Fall (32x32).png
-  artifactKey: Guid(00660171f9a53964697de2308c9d210d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Virtual Guy/Fall (32x32).png using Guid(00660171f9a53964697de2308c9d210d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412170c77b46727a6ab3c91340f3e4ce') in 0.046139 seconds
-  Import took 0.060088 seconds .
+  Time since last request: 0.000694 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Spike Head/Blink (54x52).png
+  artifactKey: Guid(5ca023f9fbc39c3419d42b83a9dd0d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Spike Head/Blink (54x52).png using Guid(5ca023f9fbc39c3419d42b83a9dd0d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c1d8b30f26b4d9045a4af9411c7963') in 0.034872 seconds
+  Import took 0.046934 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.790524 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Virtual Guy/Hit (32x32).png
-  artifactKey: Guid(b809e4e6df05c7d4e90a64325e31dc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Virtual Guy/Hit (32x32).png using Guid(b809e4e6df05c7d4e90a64325e31dc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3dd1d8cff16477c6635a9fb06320df') in 0.037147 seconds
-  Import took 0.051068 seconds .
+  Time since last request: 0.000852 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Saw/Chain.png
+  artifactKey: Guid(0013f40e0f5e0df408f983ad2ee5d3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Saw/Chain.png using Guid(0013f40e0f5e0df408f983ad2ee5d3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c45798d6715425f17c673166ce7505') in 0.038341 seconds
+  Import took 0.049530 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.425652 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Virtual Guy/Idle (32x32).png
-  artifactKey: Guid(bf3d6cc63134c54469e56bc7ca4a3b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Virtual Guy/Idle (32x32).png using Guid(bf3d6cc63134c54469e56bc7ca4a3b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed0d56bb6ac7bad81f5879235048c05') in 0.036189 seconds
-  Import took 0.048748 seconds .
+  Time since last request: 0.000556 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Platforms/Brown On (32x8).png
+  artifactKey: Guid(e92c3b8403b50284b912047228cbfc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Platforms/Brown On (32x8).png using Guid(e92c3b8403b50284b912047228cbfc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65e75c093b11167dd30c8168d77f288') in 0.031318 seconds
+  Import took 0.044189 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.798559 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Appearing (96x96).png
-  artifactKey: Guid(fb05b29e90e764a4a848232a83b82769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Appearing (96x96).png using Guid(fb05b29e90e764a4a848232a83b82769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472a1ead75df2f31cf1783c66f1eed45') in 0.041267 seconds
-  Import took 0.054815 seconds .
+  Time since last request: 0.000514 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Menu/Levels/50.png
+  artifactKey: Guid(b7ae210a50a2a9c469854cee33b85bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Levels/50.png using Guid(b7ae210a50a2a9c469854cee33b85bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9dbeb61d9d12f93fd6f0b9a4e9c3ae') in 0.033335 seconds
+  Import took 0.047747 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 104.599436 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude
-  artifactKey: Guid(9d3cfaef1266fbe449fb754019318e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude using Guid(9d3cfaef1266fbe449fb754019318e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e5ad29e80ab97b1aca26ed503609b2') in 0.017667 seconds
-  Import took 0.034706 seconds .
+  Time since last request: 0.000491 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Menu/Levels/38.png
+  artifactKey: Guid(6cb4f2056c9caf247be4ac317b24bf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Levels/38.png using Guid(6cb4f2056c9caf247be4ac317b24bf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816a693e781b3543af2c76bd0472cb2a') in 0.030437 seconds
+  Import took 0.044515 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 89.217647 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Idle (32x32).png
-  artifactKey: Guid(d38f0fdd105eb074c8f16648397a1721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Idle (32x32).png using Guid(d38f0fdd105eb074c8f16648397a1721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee4a3e63af15127581b4a4042128840') in 0.022619 seconds
-  Import took 0.042817 seconds .
+  Time since last request: 0.000668 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Menu/Levels/43.png
+  artifactKey: Guid(c98cdafc08ec30644b5c1f2cf3bab4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Levels/43.png using Guid(c98cdafc08ec30644b5c1f2cf3bab4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a81060d03167e81fe4d0a25894d68da') in 0.037373 seconds
+  Import took 0.049930 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 89.788176 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Idle (32x32).png
-  artifactKey: Guid(d38f0fdd105eb074c8f16648397a1721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Idle (32x32).png using Guid(d38f0fdd105eb074c8f16648397a1721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8be97ccabe03238f117385e6623df5') in 0.102723 seconds
-  Import took 0.123883 seconds .
+  Time since last request: 0.000543 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Menu/Levels/46.png
+  artifactKey: Guid(c8a6185acd37475429f396656c539d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Levels/46.png using Guid(c8a6185acd37475429f396656c539d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b618fe4b6c80800206dc97502d28f1') in 0.033609 seconds
+  Import took 0.048932 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 79.872294 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Pink Man/Fall (32x32).png
-  artifactKey: Guid(3c5a79c00569dc14fa80c148b63285ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Pink Man/Fall (32x32).png using Guid(3c5a79c00569dc14fa80c148b63285ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13cef3e3b399f1edf918a23f38bf61f0') in 0.045910 seconds
-  Import took 0.061841 seconds .
+  Time since last request: 0.000472 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Menu/Levels/48.png
+  artifactKey: Guid(d34e0cb26cc664247965fa485996c826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Levels/48.png using Guid(d34e0cb26cc664247965fa485996c826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762d23c6991f7417fb7ae563f254013b') in 0.031527 seconds
+  Import took 0.043880 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.332763 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Pink Man/Double Jump (32x32).png
-  artifactKey: Guid(13c3f49d563416143b2ae783c2ef9af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Pink Man/Double Jump (32x32).png using Guid(13c3f49d563416143b2ae783c2ef9af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8809b4755f9c0487d40c9fa38e07ccfa') in 0.046998 seconds
-  Import took 0.061957 seconds .
+  Time since last request: 0.000602 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Menu/Levels/49.png
+  artifactKey: Guid(8a51ef7fa81c8ba4abd59a00dc9f454c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Levels/49.png using Guid(8a51ef7fa81c8ba4abd59a00dc9f454c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8a5c9c8b047290ab7e2bb1d8a63db5') in 0.030056 seconds
+  Import took 0.043465 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.175543 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Ninja Frog/Fall (32x32).png
-  artifactKey: Guid(74361a9b33c49f346a31df7a43649243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Ninja Frog/Fall (32x32).png using Guid(74361a9b33c49f346a31df7a43649243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '650f2110a5eb434b561a151ed0cb6175') in 0.050632 seconds
-  Import took 0.064964 seconds .
+  Time since last request: 0.000640 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Items/Boxes/Box2/Break.png
+  artifactKey: Guid(a514ac81886fa9c4d9b21a379e4746e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Items/Boxes/Box2/Break.png using Guid(a514ac81886fa9c4d9b21a379e4746e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b405051da30b906feff45cd8365ce70') in 0.030413 seconds
+  Import took 0.044681 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.410302 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Ninja Frog/Double Jump (32x32).png
-  artifactKey: Guid(2edacc469cd827d4a9b82a169edc7495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Ninja Frog/Double Jump (32x32).png using Guid(2edacc469cd827d4a9b82a169edc7495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37359e7c9f0d6e6a08607d1f93e74a1') in 0.045287 seconds
-  Import took 0.058926 seconds .
+  Time since last request: 0.000590 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Menu/Levels/44.png
+  artifactKey: Guid(2201a9ed5e431064b8d6e01e6dcca1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Levels/44.png using Guid(2201a9ed5e431064b8d6e01e6dcca1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df0d5fd108e4a44ef4cac8e87ec8f87') in 0.028748 seconds
+  Import took 0.039852 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.008968 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Ninja Frog/Double Jump (32x32).png
-  artifactKey: Guid(2edacc469cd827d4a9b82a169edc7495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Ninja Frog/Double Jump (32x32).png using Guid(2edacc469cd827d4a9b82a169edc7495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37359e7c9f0d6e6a08607d1f93e74a1') in 0.036458 seconds
-  Import took 0.047294 seconds .
+  Time since last request: 0.000664 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Menu/Levels/45.png
+  artifactKey: Guid(ff54eb2c5c5469e4997d8bc16837ff6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Levels/45.png using Guid(ff54eb2c5c5469e4997d8bc16837ff6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c994bcde4ad8966d69727a2615e554b') in 0.034163 seconds
+  Import took 0.045685 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.114794 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Ninja Frog/Idle (32x32).png
-  artifactKey: Guid(46a87f9bbcf584041ac36fb7f6923c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Ninja Frog/Idle (32x32).png using Guid(46a87f9bbcf584041ac36fb7f6923c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb09bbcf276a5ad4e3eefedb1bec26c') in 0.046794 seconds
-  Import took 0.058321 seconds .
+  Time since last request: 0.000489 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Spike Head/Bottom Hit (54x52).png
+  artifactKey: Guid(f3534168d5270ff4f8ebe335e191bf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Spike Head/Bottom Hit (54x52).png using Guid(f3534168d5270ff4f8ebe335e191bf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0d6193bbb5bc8066c746ac3a65f1d3') in 0.029623 seconds
+  Import took 0.041973 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.115678 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Virtual Guy
-  artifactKey: Guid(4d97c2aa01ef83c4886580affd6502d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Virtual Guy using Guid(4d97c2aa01ef83c4886580affd6502d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1d3ff8f71b8530705e6dd2c7cc252c') in 0.012594 seconds
-  Import took 0.026628 seconds .
+  Time since last request: 0.000562 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Items/Fruits/Apple.png
+  artifactKey: Guid(4ec84beebe5d3c047ad7061f67ca5412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Items/Fruits/Apple.png using Guid(4ec84beebe5d3c047ad7061f67ca5412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b513485985d343c5fd7f965e5e56b0') in 0.031189 seconds
+  Import took 0.043831 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 322.330995 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters
-  artifactKey: Guid(6ae3771e631d772448bc850c129832d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters using Guid(6ae3771e631d772448bc850c129832d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c8f871a1ea760c22a0bb8e16e589a6') in 0.013013 seconds
-  Import took 0.023780 seconds .
+  Time since last request: 0.000631 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Menu/Levels/33.png
+  artifactKey: Guid(57599b61f43625a4cb8d820a4aa7f534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Levels/33.png using Guid(57599b61f43625a4cb8d820a4aa7f534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2eb86b9cd28d3d285711e7530e1e9d') in 0.045531 seconds
+  Import took 0.069342 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.058305 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Hello.png
-  artifactKey: Guid(935b88bbd8a5dbe48bfcbd65fc724adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Hello.png using Guid(935b88bbd8a5dbe48bfcbd65fc724adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f316c1dcb3dc7f1114a3369cdd9759') in 0.046339 seconds
-  Import took 0.063488 seconds .
+  Time since last request: 103.482997 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Items/Checkpoints/Checkpoint/Checkpoint (No Flag).png
+  artifactKey: Guid(b48e051f3663e374dbcacfd3226fba74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Items/Checkpoints/Checkpoint/Checkpoint (No Flag).png using Guid(b48e051f3663e374dbcacfd3226fba74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b18da9b9b22242b39578ead2f7f5579') in 0.044206 seconds
+  Import took 0.060494 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.104745 seconds.
-  path: Assets/Scripts/Pets/Backpack.cs
-  artifactKey: Guid(7fbacfc3f9b0e1d4cb660fef95dd998c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pets/Backpack.cs using Guid(7fbacfc3f9b0e1d4cb660fef95dd998c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8626410c1409502594a72a8f4b875b5') in 0.046522 seconds
-  Import took 0.059420 seconds .
+  Time since last request: 0.000620 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Items/Fruits/Collected.png
+  artifactKey: Guid(a6e6a68c8dca05c4ab3b1f9cf90bb524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Items/Fruits/Collected.png using Guid(a6e6a68c8dca05c4ab3b1f9cf90bb524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0814c974b101d0657693657d45d6e7') in 0.032325 seconds
+  Import took 0.044532 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.014324 seconds.
-  path: Assets/Scripts/Pets/Backpack.cs
-  artifactKey: Guid(7fbacfc3f9b0e1d4cb660fef95dd998c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pets/Backpack.cs using Guid(7fbacfc3f9b0e1d4cb660fef95dd998c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8626410c1409502594a72a8f4b875b5') in 0.011631 seconds
-  Import took 0.024578 seconds .
+  Time since last request: 0.000453 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Desappearing (96x96).png
+  artifactKey: Guid(3d5250fc46d0cd64e93bfdf3b6999efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Desappearing (96x96).png using Guid(3d5250fc46d0cd64e93bfdf3b6999efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72eebb3f4a8475ab136b80a5aecc3a4e') in 0.034589 seconds
+  Import took 0.046665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000620 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Items/Checkpoints/Checkpoint/Checkpoint (No Flag).png
+  artifactKey: Guid(b48e051f3663e374dbcacfd3226fba74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Items/Checkpoints/Checkpoint/Checkpoint (No Flag).png using Guid(b48e051f3663e374dbcacfd3226fba74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b18da9b9b22242b39578ead2f7f5579') in 0.027023 seconds
+  Import took 0.038437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Items/Fruits/Cherries.png
+  artifactKey: Guid(4882833780f621040b5a543c2c6f9310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Items/Fruits/Cherries.png using Guid(4882833780f621040b5a543c2c6f9310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff591f890b8fb15e5855e46d8c13640') in 0.031614 seconds
+  Import took 0.043564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Other/Confetti (16x16).png
+  artifactKey: Guid(e29dfa6e83ef2884bba73ed8d5f83cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Other/Confetti (16x16).png using Guid(e29dfa6e83ef2884bba73ed8d5f83cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c19d015125e5bcd8093cb7c0c4a1b3d') in 0.038891 seconds
+  Import took 0.052057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036172 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Other/Confetti (16x16).png
+  artifactKey: Guid(e29dfa6e83ef2884bba73ed8d5f83cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Other/Confetti (16x16).png using Guid(e29dfa6e83ef2884bba73ed8d5f83cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c19d015125e5bcd8093cb7c0c4a1b3d') in 0.029370 seconds
+  Import took 0.040780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.517397 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Items/Checkpoints/End/End (Idle).png
+  artifactKey: Guid(570f6774e7baf1d4a89866fba9343af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Items/Checkpoints/End/End (Idle).png using Guid(570f6774e7baf1d4a89866fba9343af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f06e1d929f46599dcbcb209045fd2f') in 0.036619 seconds
+  Import took 0.052629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000650 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Platforms/Grey Off.png
+  artifactKey: Guid(365dca85f61c9864393161dec485ac80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Platforms/Grey Off.png using Guid(365dca85f61c9864393161dec485ac80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2921a26d1b38e876086fe2ec64790dbe') in 0.032316 seconds
+  Import took 0.044653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Items/Boxes/Box1/Hit (28x24).png
+  artifactKey: Guid(2804fcb913b51a946b51a52b20726e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Items/Boxes/Box1/Hit (28x24).png using Guid(2804fcb913b51a946b51a52b20726e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d18b7ad8300288478837545134a0df4') in 0.031961 seconds
+  Import took 0.044396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Items/Boxes/Box3/Hit (28x24).png
+  artifactKey: Guid(4ad7cffd2ba58114481ced771b123e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Items/Boxes/Box3/Hit (28x24).png using Guid(4ad7cffd2ba58114481ced771b123e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a26fc1921a16f331cf749b8f22f00a9') in 0.033645 seconds
+  Import took 0.046669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000636 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Spikes/Idle.png
+  artifactKey: Guid(dcf0ccebf84045645aab38a22b69e5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Spikes/Idle.png using Guid(dcf0ccebf84045645aab38a22b69e5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483c8fe82386e39c385da4139087b8c1') in 0.029559 seconds
+  Import took 0.039892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Sand Mud Ice/Ice Particle.png
+  artifactKey: Guid(88d0a3e248233d14dbca56c86dd40eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Sand Mud Ice/Ice Particle.png using Guid(88d0a3e248233d14dbca56c86dd40eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e432edcbee94fe74c7cbbe877ea9b02') in 0.038102 seconds
+  Import took 0.051087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000687 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Items/Checkpoints/End/End (Pressed) (64x64).png
+  artifactKey: Guid(71a2735712202e741a3ca35a4d11c280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Items/Checkpoints/End/End (Pressed) (64x64).png using Guid(71a2735712202e741a3ca35a4d11c280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a79cab79ac9f50f9a4f6a7e009675f3') in 0.032795 seconds
+  Import took 0.044569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000547 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Arrow/Idle (18x18).png
+  artifactKey: Guid(4b127e0211cd1164d97793e22710bef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Arrow/Idle (18x18).png using Guid(4b127e0211cd1164d97793e22710bef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3317ab553be6ec590d435c26835788') in 0.032014 seconds
+  Import took 0.044733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Trampoline/Idle.png
+  artifactKey: Guid(356fdc1fe04048c4bbf92d64a95d10b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Trampoline/Idle.png using Guid(356fdc1fe04048c4bbf92d64a95d10b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ed4e8e6e3c2870d6f075e971ff8f02') in 0.033279 seconds
+  Import took 0.044308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Items/Boxes/Box1/Idle.png
+  artifactKey: Guid(1c835b6bbeb157546865e7346eb897ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Items/Boxes/Box1/Idle.png using Guid(1c835b6bbeb157546865e7346eb897ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8828ab6ce99a1ba3efd9c2390ebf6d') in 0.030035 seconds
+  Import took 0.040681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Pink Man/Idle (32x32).png
+  artifactKey: Guid(0dbfcb4c7235c704cac8baa3f70cff75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Pink Man/Idle (32x32).png using Guid(0dbfcb4c7235c704cac8baa3f70cff75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b91f8b488064aac190efb8fdf22a0f3') in 0.031545 seconds
+  Import took 0.042875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000621 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Spike Head/Idle.png
+  artifactKey: Guid(b06a4b8b12cd223458c3542c96487c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Spike Head/Idle.png using Guid(b06a4b8b12cd223458c3542c96487c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd965b336125a6ef40f54f143ba85c370') in 0.030264 seconds
+  Import took 0.042991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Blocks/HitSide (22x22).png
+  artifactKey: Guid(d2dcaaf0d14788b4cad4f72d53c1bb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Blocks/HitSide (22x22).png using Guid(d2dcaaf0d14788b4cad4f72d53c1bb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebd2e0d81466d561b2df8940bb29916') in 0.030925 seconds
+  Import took 0.042533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Trampoline/Jump (28x28).png
+  artifactKey: Guid(3390c4acefc8227479bc7cd54e04d525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Trampoline/Jump (28x28).png using Guid(3390c4acefc8227479bc7cd54e04d525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4460c2d616ea0d1bee26a64f7c775ad0') in 0.035001 seconds
+  Import took 0.045796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000586 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Virtual Guy/Jump (32x32).png
+  artifactKey: Guid(a4d0e7cd2d881604986c3cd5763de7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Virtual Guy/Jump (32x32).png using Guid(a4d0e7cd2d881604986c3cd5763de7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104de8c582ce089571617fb4ea6cf3f0') in 0.032433 seconds
+  Import took 0.043532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000873 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Items/Boxes/Box2/Hit (28x24).png
+  artifactKey: Guid(221c65db9367b724a90f61fb6840170f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Items/Boxes/Box2/Hit (28x24).png using Guid(221c65db9367b724a90f61fb6840170f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458be288d153f863426f5a2496066e9b') in 0.031925 seconds
+  Import took 0.042954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000658 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Platforms/Grey On (32x8).png
+  artifactKey: Guid(ca666c76533c3ba48a4bf94594771ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Platforms/Grey On (32x8).png using Guid(ca666c76533c3ba48a4bf94594771ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769cd3e07096a0e32064cb3733412c94') in 0.040443 seconds
+  Import took 0.053052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Pink Man/Hit (32x32).png
+  artifactKey: Guid(5a8c26e190f240348bd9ae0635cd451c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Pink Man/Hit (32x32).png using Guid(5a8c26e190f240348bd9ae0635cd451c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce2a9a516d596db1babf02acf7a465a') in 0.032831 seconds
+  Import took 0.044064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000520 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Items/Boxes/Box3/Idle.png
+  artifactKey: Guid(8398b2a14b0a84a4ba1962c99f9a1308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Items/Boxes/Box3/Idle.png using Guid(8398b2a14b0a84a4ba1962c99f9a1308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782e49d57b1154a220b78edd93fb9388') in 0.032561 seconds
+  Import took 0.044049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Ninja Frog/Jump (32x32).png
+  artifactKey: Guid(a964ae99ee69e5e4b87da1095db89410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Ninja Frog/Jump (32x32).png using Guid(a964ae99ee69e5e4b87da1095db89410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3438f4dc5c719e0749d5d4b233d3628f') in 0.028476 seconds
+  Import took 0.041576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Rock Head/Idle.png
+  artifactKey: Guid(1e98db9451301c141880f26ac64321fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Rock Head/Idle.png using Guid(1e98db9451301c141880f26ac64321fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe7336ab07e88614f5b6d33b609df90') in 0.029142 seconds
+  Import took 0.040893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Arrow/Hit (18x18).png
+  artifactKey: Guid(55c54fa6dbcf7ea47aa390d00df96027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Arrow/Hit (18x18).png using Guid(55c54fa6dbcf7ea47aa390d00df96027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9720786103c07f1439277df6a11d9114') in 0.032884 seconds
+  Import took 0.045395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000815 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Pink Man/Jump (32x32).png
+  artifactKey: Guid(3e1b502c7ad2e534fbd1e618062b8602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Pink Man/Jump (32x32).png using Guid(3e1b502c7ad2e534fbd1e618062b8602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89fcd029de80f69445aee2c8b47d41bb') in 0.028877 seconds
+  Import took 0.041072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001037 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Fire/Hit (16x32).png
+  artifactKey: Guid(20a8f82d193595344a52cccf989ebdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Fire/Hit (16x32).png using Guid(20a8f82d193595344a52cccf989ebdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe9750c803054ea346697d99b637746') in 0.030322 seconds
+  Import took 0.043272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Menu/Buttons/Restart.png
+  artifactKey: Guid(62217a10609097c4d8b0ab7adf01522d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Buttons/Restart.png using Guid(62217a10609097c4d8b0ab7adf01522d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19777c77681f8fba31510772af2ae589') in 0.036530 seconds
+  Import took 0.047129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000660 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Rock Head/Right Hit (42x42).png
+  artifactKey: Guid(d6f31402e1863c345b8f80bc594801d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Rock Head/Right Hit (42x42).png using Guid(d6f31402e1863c345b8f80bc594801d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde6e15ae0950a3655b208505ae9a8de') in 0.032162 seconds
+  Import took 0.043598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000565 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Virtual Guy/Run (32x32).png
+  artifactKey: Guid(4fb448bab00731b44a8e35b61e107562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Virtual Guy/Run (32x32).png using Guid(4fb448bab00731b44a8e35b61e107562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bdec144dce3b203f1f725ba6dead79') in 0.044188 seconds
+  Import took 0.055163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000548 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Pink Man/Run (32x32).png
+  artifactKey: Guid(206dc978ae247144aa6a4b20133d4fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Pink Man/Run (32x32).png using Guid(206dc978ae247144aa6a4b20133d4fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e77eaf49c468bba33b28a56ac712af') in 0.028753 seconds
+  Import took 0.041352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000606 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Falling Platforms/On (32x10).png
+  artifactKey: Guid(0d72e18d98488f74f82349dbb509f7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Falling Platforms/On (32x10).png using Guid(0d72e18d98488f74f82349dbb509f7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd83e6fc3c0614aa832505a872dd31f') in 0.036209 seconds
+  Import took 0.047324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Saw/On (38x38).png
+  artifactKey: Guid(ad339254a9ba0ee41a2d101bfa1c6a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Saw/On (38x38).png using Guid(ad339254a9ba0ee41a2d101bfa1c6a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f40d95721cf14fb94d522f36046049b') in 0.031067 seconds
+  Import took 0.044011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000519 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Blocks/Part 2 (22x22).png
+  artifactKey: Guid(a749386aaf87c9c4498eb7ac08e6ff8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Blocks/Part 2 (22x22).png using Guid(a749386aaf87c9c4498eb7ac08e6ff8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae71e1fc0cd69032bdd8039a602288dc') in 0.029107 seconds
+  Import took 0.040719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Spike Head/Right Hit (54x52).png
+  artifactKey: Guid(d83d6ac1ac09c5b43b5a568c46cb997a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Spike Head/Right Hit (54x52).png using Guid(d83d6ac1ac09c5b43b5a568c46cb997a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80dccf67baecec681f0bc3e8c6918590') in 0.037011 seconds
+  Import took 0.049558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Blocks/Part 1 (22x22).png
+  artifactKey: Guid(fe9f020123ade2b41be30d366af4949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Blocks/Part 1 (22x22).png using Guid(fe9f020123ade2b41be30d366af4949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7591882ab0657869ba42aa7c6507a8ff') in 0.033078 seconds
+  Import took 0.044790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001017 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Menu/Buttons/Play.png
+  artifactKey: Guid(4534e1eda3864784da0ce51c46e9a340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Buttons/Play.png using Guid(4534e1eda3864784da0ce51c46e9a340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae19775586cc4332a99ff90e3b2b2a3a') in 0.035515 seconds
+  Import took 0.048137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000593 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Ninja Frog/Run (32x32).png
+  artifactKey: Guid(e84efa76446be4c4985613d2a539d3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Ninja Frog/Run (32x32).png using Guid(e84efa76446be4c4985613d2a539d3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f358576d8d26843ca87d0e00bda65b9b') in 0.029760 seconds
+  Import took 0.043629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000760 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Menu/Buttons/Previous.png
+  artifactKey: Guid(a3f05bc4d50d235479efca312c9e94b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Buttons/Previous.png using Guid(a3f05bc4d50d235479efca312c9e94b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd275abeeeb110ceb33b69a96f1e0f367') in 0.031110 seconds
+  Import took 0.045159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Items/Fruits/Pineapple.png
+  artifactKey: Guid(9f5505c6bccec5449a8d7b2075ef00fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Items/Fruits/Pineapple.png using Guid(9f5505c6bccec5449a8d7b2075ef00fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c7403a15d4b129127579b0710ca26f') in 0.044228 seconds
+  Import took 0.055640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Items/Fruits/Orange.png
+  artifactKey: Guid(5a6b037140615614397e972cdd106904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Items/Fruits/Orange.png using Guid(5a6b037140615614397e972cdd106904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad1d8e9b2c5a0c16edd089671ef0e38') in 0.031628 seconds
+  Import took 0.042697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Blocks/Idle.png
+  artifactKey: Guid(171afd5a5c04df64c91dd2aee9cfdcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Blocks/Idle.png using Guid(171afd5a5c04df64c91dd2aee9cfdcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88345a6c16edab9da8e4fa9b8f7a0ac7') in 0.030236 seconds
+  Import took 0.042595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Ninja Frog/Hit (32x32).png
+  artifactKey: Guid(60d735275f330924bbd3e92338a2d388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Ninja Frog/Hit (32x32).png using Guid(60d735275f330924bbd3e92338a2d388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d25f4fb9265727d09de6350ad625560') in 0.031465 seconds
+  Import took 0.045314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Traps/Blocks/HitTop (22x22).png
+  artifactKey: Guid(7cdabfdd1068b414ea370daf25f8cf34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Traps/Blocks/HitTop (22x22).png using Guid(7cdabfdd1068b414ea370daf25f8cf34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d098b15a336d5ba46a194e6b28b634c') in 0.029680 seconds
+  Import took 0.040935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000593 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Items/Boxes/Box2/Idle.png
+  artifactKey: Guid(53d6f33f004f39d45a797e3fc20bc2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Items/Boxes/Box2/Idle.png using Guid(53d6f33f004f39d45a797e3fc20bc2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa792ef10b1c629cdb1368e7f0dc7063') in 0.036682 seconds
+  Import took 0.047708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.963361 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Items/Fruits/Kiwi.png
+  artifactKey: Guid(d85814db4c720324387467a6a3d312c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Items/Fruits/Kiwi.png using Guid(d85814db4c720324387467a6a3d312c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69374f6a447029ff743f0952d583bd2b') in 0.040810 seconds
+  Import took 0.055050 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010851 seconds.
+Registered in 0.006990 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.90 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 2.65 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.345 seconds
+- Completed reload, in  2.885 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.7 MB.
-System memory in use after: 132.8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3604.
-Total: 8.441600 ms (FindLiveObjects: 0.905000 ms CreateObjectMapping: 0.242800 ms MarkObjects: 6.922600 ms  DeleteObjects: 0.322100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.948600 seconds.
-  path: Assets/Scripts/Pets/Pets.cs
-  artifactKey: Guid(7204021dcf4e4584eab174d9e86a3f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pets/Pets.cs using Guid(7204021dcf4e4584eab174d9e86a3f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf1bb0a3b9115f6d86ae0198026d158') in 0.027074 seconds
-  Import took 0.041536 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.705794 seconds.
-  path: Assets/Scripts/Player/Player.cs
-  artifactKey: Guid(c4488a52e6077374f8103b324e531f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/Player.cs using Guid(c4488a52e6077374f8103b324e531f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc06f845a3eacf6e74d66b242ecfd9a') in 0.025097 seconds
-  Import took 0.050712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 121.028203 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Menu
-  artifactKey: Guid(7343f337c5f32cc45867a98330cae076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Menu using Guid(7343f337c5f32cc45867a98330cae076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d964414762c2e623eb7c60817948a6c') in 0.017354 seconds
-  Import took 0.034101 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.012463 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Background
-  artifactKey: Guid(0e3a6cc329b20484096ab9eb58f10715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Background using Guid(0e3a6cc329b20484096ab9eb58f10715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461c996e233ba8f8ed5f964059de5c9a') in 0.028670 seconds
-  Import took 0.044266 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014207 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Background
-  artifactKey: Guid(0e3a6cc329b20484096ab9eb58f10715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Background using Guid(0e3a6cc329b20484096ab9eb58f10715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461c996e233ba8f8ed5f964059de5c9a') in 0.009124 seconds
-  Import took 0.019736 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 110.467703 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Run (32x32).png
-  artifactKey: Guid(f86243abdc7b0854daee02c9874f747a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Run (32x32).png using Guid(f86243abdc7b0854daee02c9874f747a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8f7cda5b47c9d2678c34032688ba53') in 0.105985 seconds
-  Import took 0.116686 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 83.076434 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Run (32x32).png
-  artifactKey: Guid(f86243abdc7b0854daee02c9874f747a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Run (32x32).png using Guid(f86243abdc7b0854daee02c9874f747a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82474dc9f480064a19783b5fe34194c') in 0.159835 seconds
-  Import took 0.172225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 61.708633 seconds.
-  path: Assets/Animations/Player/Idle (32x32)_0.controller
-  artifactKey: Guid(5c3ce096db5863941b8c21d1427543ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/Idle (32x32)_0.controller using Guid(5c3ce096db5863941b8c21d1427543ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce07281388fc703775148f22868955e5') in 0.031369 seconds
-  Import took 0.046475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.463742 seconds.
-  path: Assets/Animations/Player/IdleAnim.anim
-  artifactKey: Guid(81659bd6b50bed24ab05d847b93555f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/IdleAnim.anim using Guid(81659bd6b50bed24ab05d847b93555f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644519476182baf41ee70687e67fe26c') in 0.023695 seconds
-  Import took 0.037792 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006863 seconds.
-  path: Assets/Animations/Player/IdleAnim.anim
-  artifactKey: Guid(81659bd6b50bed24ab05d847b93555f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/IdleAnim.anim using Guid(81659bd6b50bed24ab05d847b93555f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644519476182baf41ee70687e67fe26c') in 0.013831 seconds
-  Import took 0.028951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.691011 seconds.
-  path: Assets/Animations/Player/RunningAnim.anim
-  artifactKey: Guid(4da84180c5c4d5745abd06404996f5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/RunningAnim.anim using Guid(4da84180c5c4d5745abd06404996f5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16589ecefcf90b0afe2520b90f98aa0d') in 0.021268 seconds
-  Import took 0.044171 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009325 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.330 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.89 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.8 MB.
-System memory in use after: 132.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3627.
-Total: 8.627900 ms (FindLiveObjects: 1.219200 ms CreateObjectMapping: 0.435100 ms MarkObjects: 6.646300 ms  DeleteObjects: 0.323600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005311 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.419 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.8 MB.
-System memory in use after: 132.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3631.
-Total: 9.567200 ms (FindLiveObjects: 1.056900 ms CreateObjectMapping: 0.393500 ms MarkObjects: 7.718200 ms  DeleteObjects: 0.395100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007596 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.30 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.376 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.8 MB.
-System memory in use after: 133.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3635.
-Total: 7.734900 ms (FindLiveObjects: 0.836400 ms CreateObjectMapping: 0.285000 ms MarkObjects: 6.301500 ms  DeleteObjects: 0.308700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005264 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.410 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.9 MB.
-System memory in use after: 133.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3639.
-Total: 6.324100 ms (FindLiveObjects: 0.815300 ms CreateObjectMapping: 0.221700 ms MarkObjects: 4.962900 ms  DeleteObjects: 0.321000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008401 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.535 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.9 MB.
-System memory in use after: 133.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3643.
-Total: 7.576200 ms (FindLiveObjects: 1.138000 ms CreateObjectMapping: 0.356600 ms MarkObjects: 5.677900 ms  DeleteObjects: 0.399900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005980 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.51 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.642 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.9 MB.
-System memory in use after: 133.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3647.
-Total: 10.252900 ms (FindLiveObjects: 1.427600 ms CreateObjectMapping: 0.911500 ms MarkObjects: 7.575900 ms  DeleteObjects: 0.334300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005914 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.697 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.9 MB.
-System memory in use after: 133.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3651.
-Total: 6.076400 ms (FindLiveObjects: 0.771500 ms CreateObjectMapping: 0.202400 ms MarkObjects: 4.763200 ms  DeleteObjects: 0.336300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1098.631623 seconds.
-  path: Assets/Prefabs/Crawler.prefab
-  artifactKey: Guid(4c68872ad047d9e43b8300d3e45cbc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Crawler.prefab using Guid(4c68872ad047d9e43b8300d3e45cbc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50bc556d021b05cdd7082c7e2b3a4b1d') in 0.535107 seconds
-  Import took 0.550632 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.436436 seconds.
-  path: Assets/Scripts/Universal/Health.cs
-  artifactKey: Guid(97cd9b77ccecdeb4fac9c2c60efd76fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Universal/Health.cs using Guid(97cd9b77ccecdeb4fac9c2c60efd76fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef20deb7e87137fd4ce9b1cfefaa2fa') in 0.013938 seconds
-  Import took 0.027600 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005925 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.749 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.1 MB.
-System memory in use after: 135.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3698.
-Total: 9.776500 ms (FindLiveObjects: 2.511100 ms CreateObjectMapping: 0.967100 ms MarkObjects: 5.901100 ms  DeleteObjects: 0.392800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.084309 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Jump (32x32).png
-  artifactKey: Guid(6e19547aa8d43e14b8fcb7d50376608d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Jump (32x32).png using Guid(6e19547aa8d43e14b8fcb7d50376608d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31826dd50f03d9c700d3d6239cc4995c') in 0.122226 seconds
-  Import took 0.137599 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 101.416839 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Jump (32x32).png
-  artifactKey: Guid(6e19547aa8d43e14b8fcb7d50376608d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Jump (32x32).png using Guid(6e19547aa8d43e14b8fcb7d50376608d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1ea1e466c0b55359c060fd82565ae0') in 0.065517 seconds
-  Import took 0.076378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 87.335670 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Double Jump (32x32).png
-  artifactKey: Guid(e47ed98024dff1749becf762304164ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Double Jump (32x32).png using Guid(e47ed98024dff1749becf762304164ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a37f23ab330ae5de46710337ed50f83') in 0.028786 seconds
-  Import took 0.040775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.250390 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Double Jump (32x32).png
-  artifactKey: Guid(e47ed98024dff1749becf762304164ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Double Jump (32x32).png using Guid(e47ed98024dff1749becf762304164ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed1fd2cbb4d7887d6b909bfe6f6b4b2') in 0.063498 seconds
-  Import took 0.083592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.029882 seconds.
-  path: Assets/Animations/Player/RunningAnim.anim
-  artifactKey: Guid(4da84180c5c4d5745abd06404996f5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/RunningAnim.anim using Guid(4da84180c5c4d5745abd06404996f5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93515b1cdb9b3448dff073a1cf22db8a') in 0.016570 seconds
-  Import took 0.031568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.897717 seconds.
-  path: Assets/Animations/Player/JumpAnim.anim
-  artifactKey: Guid(c77d93d67fdd25c4dac424c7bd7d4978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/JumpAnim.anim using Guid(c77d93d67fdd25c4dac424c7bd7d4978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad91578a00b9255f85ae5c462891be20') in 0.020114 seconds
-  Import took 0.045895 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005716 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.41 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.260 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.1 MB.
-System memory in use after: 135.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3709.
-Total: 7.184300 ms (FindLiveObjects: 1.146500 ms CreateObjectMapping: 0.420200 ms MarkObjects: 5.279700 ms  DeleteObjects: 0.334600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005218 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.27 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.352 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.1 MB.
-System memory in use after: 135.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3713.
-Total: 8.549800 ms (FindLiveObjects: 1.695300 ms CreateObjectMapping: 0.769000 ms MarkObjects: 5.752800 ms  DeleteObjects: 0.329200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005781 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.46 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.455 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.1 MB.
-System memory in use after: 135.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3717.
-Total: 7.333200 ms (FindLiveObjects: 0.925800 ms CreateObjectMapping: 0.264000 ms MarkObjects: 5.795900 ms  DeleteObjects: 0.342700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005395 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.521 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.1 MB.
-System memory in use after: 135.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3721.
-Total: 16.001500 ms (FindLiveObjects: 2.165500 ms CreateObjectMapping: 1.153800 ms MarkObjects: 12.237800 ms  DeleteObjects: 0.440900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005187 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.51 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.451 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.1 MB.
-System memory in use after: 135.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3725.
-Total: 8.907000 ms (FindLiveObjects: 1.305100 ms CreateObjectMapping: 0.848300 ms MarkObjects: 6.412900 ms  DeleteObjects: 0.336700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005345 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.42 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.517 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.1 MB.
-System memory in use after: 135.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3729.
-Total: 8.792200 ms (FindLiveObjects: 1.041300 ms CreateObjectMapping: 0.378100 ms MarkObjects: 7.046700 ms  DeleteObjects: 0.322800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005414 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.03 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.483 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.98 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.2 MB.
-System memory in use after: 135.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3733.
-Total: 9.482400 ms (FindLiveObjects: 1.101700 ms CreateObjectMapping: 0.473000 ms MarkObjects: 7.540200 ms  DeleteObjects: 0.363900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005869 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.82 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.465 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.01 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.2 MB.
-System memory in use after: 135.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3737.
-Total: 9.010100 ms (FindLiveObjects: 1.745400 ms CreateObjectMapping: 1.039900 ms MarkObjects: 5.894800 ms  DeleteObjects: 0.325400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006940 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.451 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.18 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.2 MB.
-System memory in use after: 135.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3741.
-Total: 8.834900 ms (FindLiveObjects: 1.668100 ms CreateObjectMapping: 0.902200 ms MarkObjects: 5.926200 ms  DeleteObjects: 0.334000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005653 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.433 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.2 MB.
-System memory in use after: 135.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3745.
-Total: 7.129700 ms (FindLiveObjects: 0.949600 ms CreateObjectMapping: 0.332300 ms MarkObjects: 5.520900 ms  DeleteObjects: 0.324000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005926 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.75 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.412 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.2 MB.
-System memory in use after: 135.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3749.
-Total: 8.950200 ms (FindLiveObjects: 1.323600 ms CreateObjectMapping: 0.376700 ms MarkObjects: 6.850000 ms  DeleteObjects: 0.393400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005290 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.78 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.423 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.2 MB.
-System memory in use after: 135.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3753.
-Total: 6.994100 ms (FindLiveObjects: 0.819400 ms CreateObjectMapping: 0.201900 ms MarkObjects: 5.649300 ms  DeleteObjects: 0.320000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005298 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.463 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.3 MB.
-System memory in use after: 135.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3757.
-Total: 9.550700 ms (FindLiveObjects: 0.891600 ms CreateObjectMapping: 0.845300 ms MarkObjects: 7.486500 ms  DeleteObjects: 0.323800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006068 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.19 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.581 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.3 MB.
-System memory in use after: 135.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3761.
-Total: 7.683900 ms (FindLiveObjects: 1.220700 ms CreateObjectMapping: 0.500100 ms MarkObjects: 5.545600 ms  DeleteObjects: 0.413400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006063 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.453 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.61 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.3 MB.
-System memory in use after: 135.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3765.
-Total: 7.783200 ms (FindLiveObjects: 1.183900 ms CreateObjectMapping: 0.538600 ms MarkObjects: 5.732000 ms  DeleteObjects: 0.324200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005059 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.559 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.3 MB.
-System memory in use after: 135.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3769.
-Total: 9.032100 ms (FindLiveObjects: 1.538500 ms CreateObjectMapping: 0.463100 ms MarkObjects: 6.685400 ms  DeleteObjects: 0.341600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006838 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.85 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.832 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.3 MB.
-System memory in use after: 135.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3773.
-Total: 7.660000 ms (FindLiveObjects: 0.869400 ms CreateObjectMapping: 0.249000 ms MarkObjects: 6.170100 ms  DeleteObjects: 0.367900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009615 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.43 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.405 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.17 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.3 MB.
-System memory in use after: 135.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3777.
-Total: 9.544400 ms (FindLiveObjects: 1.056500 ms CreateObjectMapping: 0.482800 ms MarkObjects: 7.537600 ms  DeleteObjects: 0.463300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.031091 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.501 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.51 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.1 MB.
-System memory in use after: 142.5 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3874.
-Total: 9.181100 ms (FindLiveObjects: 1.200500 ms CreateObjectMapping: 0.307400 ms MarkObjects: 5.923700 ms  DeleteObjects: 1.745000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006443 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.25 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.424 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.1 MB.
-System memory in use after: 142.5 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3878.
-Total: 11.959500 ms (FindLiveObjects: 1.001700 ms CreateObjectMapping: 0.419400 ms MarkObjects: 8.102200 ms  DeleteObjects: 2.431500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007090 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.319 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.51 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.1 MB.
-System memory in use after: 142.5 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3882.
-Total: 9.766900 ms (FindLiveObjects: 0.852700 ms CreateObjectMapping: 0.332600 ms MarkObjects: 6.652000 ms  DeleteObjects: 1.926100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1507.232860 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Background/Blue.png
-  artifactKey: Guid(1c59fa3a0b2cfc845aa22f7ad1eeedca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Background/Blue.png using Guid(1c59fa3a0b2cfc845aa22f7ad1eeedca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923dab31e2b6d07768b88d655738ac9b') in 0.140214 seconds
-  Import took 0.157804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.972681 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Background/Brown.png
-  artifactKey: Guid(c59628accc0ead747a7ff21e82709a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Background/Brown.png using Guid(c59628accc0ead747a7ff21e82709a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be454764a6abe2436c059cf13a21ead4') in 0.041981 seconds
-  Import took 0.059826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.405200 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Background/Gray.png
-  artifactKey: Guid(d5a1dc606e7b14e4cb3f3dca7fca25ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Background/Gray.png using Guid(d5a1dc606e7b14e4cb3f3dca7fca25ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46482f738129b915a3bd249555dad40') in 0.041186 seconds
-  Import took 0.055778 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.422568 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Background/Green.png
-  artifactKey: Guid(388059cb58436fb49ae18872622e4c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Background/Green.png using Guid(388059cb58436fb49ae18872622e4c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c109be10ad18dc5fc9cccfa866d3cd52') in 0.042427 seconds
-  Import took 0.055951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.414605 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Background/Pink.png
-  artifactKey: Guid(a275d4d38ba22ec4aab80fe7dcba91a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Background/Pink.png using Guid(a275d4d38ba22ec4aab80fe7dcba91a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5d346f988bfd2058684d5e70c22e27') in 0.045207 seconds
-  Import took 0.058310 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.491474 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Background/Purple.png
-  artifactKey: Guid(f4008c66ecbafc14d9c6498e3ad6c85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Background/Purple.png using Guid(f4008c66ecbafc14d9c6498e3ad6c85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd14960d44d150b9aee17dbfb9cb24d4') in 0.046028 seconds
-  Import took 0.059731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.354451 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Background/Yellow.png
-  artifactKey: Guid(0d686217c65ae2b41adfe4bc43c1b9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Background/Yellow.png using Guid(0d686217c65ae2b41adfe4bc43c1b9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad4c0a716d1eb6c36e050ad1b6cea44') in 0.057203 seconds
-  Import took 0.079053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001867 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Background/Yellow.png
-  artifactKey: Guid(0d686217c65ae2b41adfe4bc43c1b9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Background/Yellow.png using Guid(0d686217c65ae2b41adfe4bc43c1b9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad4c0a716d1eb6c36e050ad1b6cea44') in 0.032202 seconds
-  Import took 0.047777 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.304600 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Items
-  artifactKey: Guid(923326f7e57eec64dad13b4de0880b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Items using Guid(923326f7e57eec64dad13b4de0880b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e453bfb604217acf1ab288b751608d') in 0.017787 seconds
-  Import took 0.033262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002494 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Items
-  artifactKey: Guid(923326f7e57eec64dad13b4de0880b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Items using Guid(923326f7e57eec64dad13b4de0880b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e453bfb604217acf1ab288b751608d') in 0.023903 seconds
-  Import took 0.041716 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008458 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.410 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.50 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.2 MB.
-System memory in use after: 142.5 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3889.
-Total: 11.280900 ms (FindLiveObjects: 1.264100 ms CreateObjectMapping: 0.651900 ms MarkObjects: 7.615000 ms  DeleteObjects: 1.744600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005562 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.75 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.169 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.41 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.2 MB.
-System memory in use after: 142.5 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3893.
-Total: 9.875000 ms (FindLiveObjects: 0.912900 ms CreateObjectMapping: 0.443700 ms MarkObjects: 6.787800 ms  DeleteObjects: 1.726500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006569 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.362 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.44 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.2 MB.
-System memory in use after: 142.5 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3897.
-Total: 8.831400 ms (FindLiveObjects: 1.263300 ms CreateObjectMapping: 0.329000 ms MarkObjects: 5.530300 ms  DeleteObjects: 1.704400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006207 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.43 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.448 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.46 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.2 MB.
-System memory in use after: 142.5 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3901.
-Total: 8.887600 ms (FindLiveObjects: 1.039400 ms CreateObjectMapping: 0.408000 ms MarkObjects: 5.696100 ms  DeleteObjects: 1.739500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012130 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.500 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.51 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.2 MB.
-System memory in use after: 142.6 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3905.
-Total: 11.032400 ms (FindLiveObjects: 0.869900 ms CreateObjectMapping: 0.220200 ms MarkObjects: 7.618300 ms  DeleteObjects: 2.320200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005778 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.44 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.522 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.2 MB.
-System memory in use after: 142.6 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3909.
-Total: 9.439400 ms (FindLiveObjects: 1.091600 ms CreateObjectMapping: 0.803100 ms MarkObjects: 5.839700 ms  DeleteObjects: 1.701500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 432.180979 seconds.
-  path: Assets/Animations/Player/Idle (32x32)_0.controller
-  artifactKey: Guid(5c3ce096db5863941b8c21d1427543ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/Idle (32x32)_0.controller using Guid(5c3ce096db5863941b8c21d1427543ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b446946ceb0004068d0d19872e0896b6') in 0.077051 seconds
-  Import took 0.093578 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005899 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.741 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.2 MB.
-System memory in use after: 142.6 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3913.
-Total: 8.793800 ms (FindLiveObjects: 1.030200 ms CreateObjectMapping: 0.176700 ms MarkObjects: 5.816800 ms  DeleteObjects: 1.766500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.343077 seconds.
-  path: Assets/Animations/Player/Idle (32x32)_0.controller
-  artifactKey: Guid(5c3ce096db5863941b8c21d1427543ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/Idle (32x32)_0.controller using Guid(5c3ce096db5863941b8c21d1427543ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25d189b552332109ed18f652dcbec19') in 0.066280 seconds
-  Import took 0.079917 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.469186 seconds.
-  path: Assets/Animations/Player/Idle (32x32)_0.controller
-  artifactKey: Guid(5c3ce096db5863941b8c21d1427543ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/Idle (32x32)_0.controller using Guid(5c3ce096db5863941b8c21d1427543ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec20475dfa6ed216a39457d611146c20') in 0.025933 seconds
-  Import took 0.042845 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005750 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.422 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.44 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.2 MB.
-System memory in use after: 142.6 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3917.
-Total: 12.275700 ms (FindLiveObjects: 1.223200 ms CreateObjectMapping: 0.370100 ms MarkObjects: 8.396900 ms  DeleteObjects: 2.281100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006201 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.10 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.482 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.2 MB.
-System memory in use after: 142.6 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3921.
-Total: 13.405600 ms (FindLiveObjects: 2.590000 ms CreateObjectMapping: 1.114900 ms MarkObjects: 7.481800 ms  DeleteObjects: 2.213900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006496 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.486 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.01 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.2 MB.
-System memory in use after: 142.6 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3925.
-Total: 11.832700 ms (FindLiveObjects: 1.008500 ms CreateObjectMapping: 0.201300 ms MarkObjects: 8.198100 ms  DeleteObjects: 2.420100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005453 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.519 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.3 MB.
-System memory in use after: 142.6 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3929.
-Total: 9.333900 ms (FindLiveObjects: 0.885500 ms CreateObjectMapping: 0.287500 ms MarkObjects: 6.235900 ms  DeleteObjects: 1.921600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007501 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 1.56 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.402 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.3 MB.
-System memory in use after: 142.6 MB.
+Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.6 MB.
+System memory in use after: 140.7 MB.
 
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3933.
-Total: 10.751100 ms (FindLiveObjects: 1.275300 ms CreateObjectMapping: 0.416200 ms MarkObjects: 7.061800 ms  DeleteObjects: 1.994200 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3748.
+Total: 6.226000 ms (FindLiveObjects: 0.799000 ms CreateObjectMapping: 0.147300 ms MarkObjects: 4.993700 ms  DeleteObjects: 0.282700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006343 seconds.
+Registered in 0.008589 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.52 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.386 seconds
+- Completed reload, in  2.873 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.42 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.39 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.3 MB.
-System memory in use after: 142.7 MB.
+Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.6 MB.
+System memory in use after: 140.7 MB.
 
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3937.
-Total: 8.750300 ms (FindLiveObjects: 0.862500 ms CreateObjectMapping: 0.298800 ms MarkObjects: 5.776400 ms  DeleteObjects: 1.808200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006706 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.42 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.300 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.71 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.3 MB.
-System memory in use after: 142.7 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3941.
-Total: 10.256500 ms (FindLiveObjects: 1.016400 ms CreateObjectMapping: 0.331200 ms MarkObjects: 6.678600 ms  DeleteObjects: 2.226500 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3752.
+Total: 7.781000 ms (FindLiveObjects: 0.882800 ms CreateObjectMapping: 0.313200 ms MarkObjects: 6.271300 ms  DeleteObjects: 0.310500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 252.914475 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Fall (32x32).png
-  artifactKey: Guid(8ef22dd1ec4cd0246928054b5d88f375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Fall (32x32).png using Guid(8ef22dd1ec4cd0246928054b5d88f375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3781b7bc266430d7b330bec2c2c974') in 0.127339 seconds
-  Import took 0.146168 seconds .
+  Time since last request: 125.537340 seconds.
+  path: Assets/Prefabs/Lava.prefab
+  artifactKey: Guid(5baef75e3a7cdec43bb41715677863eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lava.prefab using Guid(5baef75e3a7cdec43bb41715677863eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51dd699dbb734f944dd7ca005fa62ff') in 0.531728 seconds
+  Import took 0.545879 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.303380 seconds.
-  path: Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Fall (32x32).png
-  artifactKey: Guid(8ef22dd1ec4cd0246928054b5d88f375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Pixel Adventure 1/Free/Main Characters/Mask Dude/Fall (32x32).png using Guid(8ef22dd1ec4cd0246928054b5d88f375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d06095d9c69f0bc09510ff8bf9072c') in 0.073238 seconds
-  Import took 0.089419 seconds .
+  Time since last request: 37.609962 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Menu/Buttons/Leaderboard.png
+  artifactKey: Guid(939e65d57bb1d2946ab9549cba2323bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Buttons/Leaderboard.png using Guid(939e65d57bb1d2946ab9549cba2323bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf51b683df6d3b177c31aade320ef77') in 0.084100 seconds
+  Import took 0.100014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007948 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Menu/Buttons/Leaderboard.png
+  artifactKey: Guid(939e65d57bb1d2946ab9549cba2323bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Menu/Buttons/Leaderboard.png using Guid(939e65d57bb1d2946ab9549cba2323bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf51b683df6d3b177c31aade320ef77') in 0.027229 seconds
+  Import took 0.042137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.903842 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Items/Checkpoints/Start/Start (Moving) (64x64).png
+  artifactKey: Guid(41a6d137e2ac28a44bd27156c46a15f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Items/Checkpoints/Start/Start (Moving) (64x64).png using Guid(41a6d137e2ac28a44bd27156c46a15f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6893844c38ef76a2a1a919819ad3cb1f') in 0.049050 seconds
+  Import took 0.067151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012348 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Items/Checkpoints/Start/Start (Moving) (64x64).png
+  artifactKey: Guid(41a6d137e2ac28a44bd27156c46a15f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Items/Checkpoints/Start/Start (Moving) (64x64).png using Guid(41a6d137e2ac28a44bd27156c46a15f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6893844c38ef76a2a1a919819ad3cb1f') in 0.029016 seconds
+  Import took 0.042080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.492770 seconds.
+  path: Assets/Art/Pixel Adventure 1/Free/Items/Checkpoints/Start/Start (Moving) (64x64).png
+  artifactKey: Guid(41a6d137e2ac28a44bd27156c46a15f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Pixel Adventure 1/Free/Items/Checkpoints/Start/Start (Moving) (64x64).png using Guid(41a6d137e2ac28a44bd27156c46a15f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918570dd0e93fdb4b03b05aec3d9a19b') in 0.126148 seconds
+  Import took 0.138099 seconds .
 

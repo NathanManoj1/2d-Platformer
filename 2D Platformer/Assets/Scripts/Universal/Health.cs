@@ -14,6 +14,7 @@ public class Health : MonoBehaviour
     private int _rare = 3;
     public bool isPet;
     Backpack _backpack;
+    Animator _anim;
     private void Start()
     {
         _CurrentHealth = _MaxHealth;
@@ -29,6 +30,8 @@ public class Health : MonoBehaviour
         {
             if(this.tag != "Player")
             {
+                _anim = GetComponentInChildren<Animator>();
+                _anim.SetTrigger("hurt");
                 _number = 2;//Random.Range(1, _rare);
                 if (_number == 2 && isPet == false)
                 {
