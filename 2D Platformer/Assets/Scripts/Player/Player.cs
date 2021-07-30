@@ -22,7 +22,7 @@ public class Player : MonoBehaviour
     private Animator _anim;
     private void Start()
     {
-        _anim = GetComponent<Animator>();
+        _anim = GetComponentInChildren<Animator>();
         if (_anim == null)
             Debug.LogError("Animator is NULL");
         rb = GetComponent<Rigidbody2D>();
@@ -33,13 +33,24 @@ public class Player : MonoBehaviour
     {
         Jump();
         CheckIfGrounded();
+        if (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D)) {
+            _anim.SetBool("IsRunning", false);
+        }
+        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
+        {
+            _anim.SetBool("IsRunning", true);
+        }
+
+
     }
     private void FixedUpdate()
     {
         Move();
+
     }
     private void Move()
     {
+        
         float x = Input.GetAxisRaw("Horizontal");
         float moveBy = x * _speed;
         rb.velocity = new Vector2(moveBy, rb.velocity.y);
