@@ -20,6 +20,10 @@ public class Player : MonoBehaviour
     [SerializeField]
     private AudioSource _jump;
     private Animator _anim;
+    [SerializeField]
+    private AudioSource _walkingGrass;
+    Vector3 characterScale;
+    float characterScaleX;
     private void Start()
     {
         _anim = GetComponentInChildren<Animator>();
@@ -28,6 +32,8 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         if (rb == null)
             Debug.LogError("Rigidbody2D is NULL");
+        characterScale = transform.localScale;
+        characterScaleX = characterScale.x;
     }
     private void Update()
     {
@@ -36,10 +42,12 @@ public class Player : MonoBehaviour
         CheckIfGrounded();
         if (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D)) {
             _anim.SetBool("IsRunning", false);
+            _walkingGrass.Pause();
         }
         if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
         {
             _anim.SetBool("IsRunning", true);
+            _walkingGrass.Play();
         }
         if (_isGrounded == true)
             _anim.SetBool("IsGrounded", true);
@@ -58,6 +66,17 @@ public class Player : MonoBehaviour
         float x = Input.GetAxisRaw("Horizontal");
         float moveBy = x * _speed;
         rb.velocity = new Vector2(moveBy, rb.velocity.y);
+
+        // Flip the Character:
+        if (Input.GetAxis("Horizontal") < 0)
+        {
+            characterScale.x = -characterScaleX;
+        }
+        if (Input.GetAxis("Horizontal") > 0)
+        {
+            characterScale.x = characterScaleX;
+        }
+        transform.localScale = characterScale;
     }
     private void Jump()
     {
