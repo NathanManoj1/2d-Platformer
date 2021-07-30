@@ -31,6 +31,7 @@ public class Player : MonoBehaviour
     }
     private void Update()
     {
+
         Jump();
         CheckIfGrounded();
         if (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D)) {
@@ -40,7 +41,10 @@ public class Player : MonoBehaviour
         {
             _anim.SetBool("IsRunning", true);
         }
-
+        if (_isGrounded == true)
+            _anim.SetBool("IsGrounded", true);
+        if (_isGrounded == false)
+        _anim.SetBool("IsGrounded", false);
 
     }
     private void FixedUpdate()
