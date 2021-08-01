@@ -80,6 +80,7 @@ public class Player : MonoBehaviour
     }
     private void Jump()
     {
+       
         if (Input.GetKeyDown(KeyCode.Space) && _isGrounded == true)
         {
             _anim.SetTrigger("Jump");
