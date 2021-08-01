@@ -24,6 +24,7 @@ public class Player : MonoBehaviour
     private AudioSource _walkingGrass;
     Vector3 characterScale;
     float characterScaleX;
+    UIManager _uimanager;
     private void Start()
     {
         _anim = GetComponentInChildren<Animator>();
@@ -34,6 +35,8 @@ public class Player : MonoBehaviour
             Debug.LogError("Rigidbody2D is NULL");
         characterScale = transform.localScale;
         characterScaleX = characterScale.x;
+        _uimanager = GameObject.Find("Canvas").GetComponent<UIManager>();
+        
     }
     private void Update()
     {
@@ -57,7 +60,10 @@ public class Player : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        Move();
+        if (_uimanager._paused == false) {
+            Move();
+
+        }
 
     }
     private void Move()

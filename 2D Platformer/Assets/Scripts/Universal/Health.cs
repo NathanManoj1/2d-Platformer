@@ -14,9 +14,12 @@ public class Health : MonoBehaviour
     private int _rare = 3;
     public bool isPet;
     Backpack _backpack;
+    [SerializeField]
     Animator _anim;
+    UIManager _uiManager;
     private void Start()
     {
+        _uiManager = GameObject.Find("Canvas").GetComponent<UIManager>();
         _CurrentHealth = _MaxHealth;
         _backpack = GameObject.Find("Backpack").GetComponent<Backpack>();
         if (_backpack == null)
@@ -28,22 +31,10 @@ public class Health : MonoBehaviour
         _CurrentHealth -= _DamageAmount;
         if (_CurrentHealth < 0)
         {
-            if(this.tag != "Player")
+            if(this.tag == "Player")
             {
-                _anim = GetComponentInChildren<Animator>();
-                _anim.SetTrigger("hurt");
-                _number = 2;//Random.Range(1, _rare);
-                if (_number == 2 && isPet == false)
-                {
-                    var component = GetComponent<Pets>();
-                    _backpack.ConvertToPet(component);
-                    _CurrentHealth = _MaxHealth;
-                    isPet = true;
-                }
-                else
-                {
-                    Destroy(this.gameObject);
-                }
+                _anim.SetTrigger("Hurt");
+                _uiManager.died();
             }
           
 
